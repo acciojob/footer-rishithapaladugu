@@ -1,1 +1,49 @@
 /* your code here */
+.media-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.media-icons a {
+  background: #222;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.media-icons a:hover {
+  background: #13c38b;
+  color: #000;
+}
+
+/* Fixes for .link-boxes */
+.link-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  flex: 1;
+  margin-top: 30px;
+}
+
+.link-boxes div h4 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.link-boxes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-boxes ul li {
+  margin: 6px 0;
+}
